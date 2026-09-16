@@ -1,31 +1,77 @@
 # Dependencies
 node_modules/
 
-# Python environments and caches
-.venv/
-venv/
-__pycache__/
-*.pyc
-
-# Build output
+# Build files
 dist/
+dist-ssr/
 
-# Environment files
+# Environment variables / secrets
 .env
 .env.*
 !.env.example
 
 # Logs
+logs/
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# SQLite runtime and local data
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Vite
+*.local
+
+# SQLite runtime files
 *.db
 *.db-shm
 *.db-wal
+# Python virtual environments
+.venv/
+venv/
 
-# Editor and OS files
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+
+# Frontend build
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Vite
+*.local
